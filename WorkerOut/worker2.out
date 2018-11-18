@@ -1,0 +1,95 @@
+worker run
+parseCmdArg
+loadUserFile
+init
+readInput
+The line is 1 48
+performSuperstep
+sent WM_BEGIN
+Sender: connect all server success
+Receiver: accept all client success
+received MW_BEGIN
+-----------------------------------------
+superstep: 0
+sent WW_FINISHSENDNODEMSG to worker[1]
+sent WW_FINISHSENDNODEMSG to worker[3]
+sent WW_FINISHSENDNODEMSG to worker[4]
+received all WW_NODEMSGLIST && WW_FINISHNODEMSG
+sent WM_CURSSFINISH
+received MW_NEXTSSSTART
+-----------------------------------------
+superstep: 1
+sent WW_NODEMSGLIST, 204 msgs to worker[1]
+sent WW_NODEMSGLIST, 171 msgs to worker[3]
+sent WW_NODEMSGLIST, 173 msgs to worker[4]
+sent WW_FINISHSENDNODEMSG to worker[4]
+sent WW_FINISHSENDNODEMSG to worker[1]
+sent WW_FINISHSENDNODEMSG to worker[3]
+received all WW_NODEMSGLIST && WW_FINISHNODEMSG
+sent WM_CURSSFINISH
+received MW_NEXTSSSTART
+-----------------------------------------
+superstep: 2
+sent WW_NODEMSGLIST, 2025 msgs to worker[1]
+sent WW_NODEMSGLIST, 1786 msgs to worker[3]
+sent WW_NODEMSGLIST, 2242 msgs to worker[4]
+sent WW_FINISHSENDNODEMSG to worker[1]
+sent WW_FINISHSENDNODEMSG to worker[3]
+sent WW_FINISHSENDNODEMSG to worker[4]
+received all WW_NODEMSGLIST && WW_FINISHNODEMSG
+sent WM_CURSSFINISH
+received MW_NEXTSSSTART
+-----------------------------------------
+superstep: 3
+sent WW_NODEMSGLIST, 3045 msgs to worker[1]
+sent WW_NODEMSGLIST, 2927 msgs to worker[3]
+sent WW_NODEMSGLIST, 2839 msgs to worker[4]
+sent WW_FINISHSENDNODEMSG to worker[4]
+sent WW_FINISHSENDNODEMSG to worker[1]
+sent WW_FINISHSENDNODEMSG to worker[3]
+received all WW_NODEMSGLIST && WW_FINISHNODEMSG
+sent WM_CURSSFINISH
+received MW_NEXTSSSTART
+-----------------------------------------
+superstep: 4
+sent WW_NODEMSGLIST, 232 msgs to worker[1]
+sent WW_NODEMSGLIST, 282 msgs to worker[3]
+sent WW_NODEMSGLIST, 214 msgs to worker[4]
+sent WW_FINISHSENDNODEMSG to worker[4]
+sent WW_FINISHSENDNODEMSG to worker[1]
+sent WW_FINISHSENDNODEMSG to worker[3]
+received all WW_NODEMSGLIST && WW_FINISHNODEMSG
+sent WM_CURSSFINISH
+received MW_NEXTSSSTART
+-----------------------------------------
+superstep: 5
+sent WW_NODEMSGLIST, 3 msgs to worker[1]
+sent WW_NODEMSGLIST, 14 msgs to worker[3]
+sent WW_NODEMSGLIST, 10 msgs to worker[4]
+sent WW_FINISHSENDNODEMSG to worker[4]
+sent WW_FINISHSENDNODEMSG to worker[1]
+sent WW_FINISHSENDNODEMSG to worker[3]
+received all WW_NODEMSGLIST && WW_FINISHNODEMSG
+sent WM_CURSSFINISH
+received MW_NEXTSSSTART
+-----------------------------------------
+superstep: 6
+sent WW_FINISHSENDNODEMSG to worker[1]
+sent WW_FINISHSENDNODEMSG to worker[3]
+sent WW_FINISHSENDNODEMSG to worker[4]
+received all WW_NODEMSGLIST && WW_FINISHNODEMSG
+sent WM_CURSSFINISH
+received MW_NEXTSSSTART
+-----------------------------------------
+superstep: 7
+sent WW_FINISHSENDNODEMSG to worker[1]
+sent WW_FINISHSENDNODEMSG to worker[3]
+sent WW_FINISHSENDNODEMSG to worker[4]
+received all WW_NODEMSGLIST && WW_FINISHNODEMSG
+sent WM_CURSSFINISH
+received MW_END
+sent WM_END
+writeOutput
+terminate
+Receiver: closeAllSocket
+Sender: closeAllSocket
