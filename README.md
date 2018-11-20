@@ -1,6 +1,6 @@
 ### SSSP problem using GraphLite
-![]([](https://img.shields.io/badge/language-C++-red.svg) 
-![]([](https://img.shields.io/badge/license-MIT-000000.svg)
+![](https://img.shields.io/badge/language-C++-red.svg) 
+![](https://img.shields.io/badge/license-MIT-000000.svg)
 
 ------------------------------------------------------------
 graphlite is a synchronous graph computing system. I implemented the SSSP
@@ -21,6 +21,7 @@ Requirements
 2. Hadoop 2.6.x
 3. protocol buffers
    $ apt-get install protobuf-c-compiler libprotobuf-c0 libprotobuf-c0-dev
+4. GraphLite 0.2.0
 
 ------------------------------------------------------------
 Directory Structure
@@ -113,3 +114,9 @@ Use Hash Partitioner
   $ hash-partitioner.pl Input/facebookcombined 4
 
   will generate: Input/facebookcombined_4w_[1-4]
+  
+------------------------------------------------------------
+Reference
+------------------------------------------------------------
+
+ [GraphLite](https://github.com/schencoding/GraphLite)
