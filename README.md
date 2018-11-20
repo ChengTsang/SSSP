@@ -1,6 +1,6 @@
 <div align=center>
   
-### SSSP Problem on GraphLite
+# SSSP Problem on GraphLite
 </div align>
 
 ![](https://img.shields.io/badge/language-C++-red.svg) 
