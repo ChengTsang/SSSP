@@ -1,4 +1,8 @@
-### SSSP problem using GraphLite
+<div align=center>
+  
+### SSSP Problem on GraphLite
+</div align>
+
 ![](https://img.shields.io/badge/language-C++-red.svg) 
 ![](https://img.shields.io/badge/license-MIT-000000.svg)
 
